@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>짝수일까, 홀수일까</title>
+	<title>연습문제 1</title>
 </head>
 <body>
-	<h2>짝수일까, 홀수일까</h2>
-
 	<script>
-		var n = prompt("숫자를 입력하시오");
-		if (n % 2 == 0){
-			document.write(n +"는 짝수입니다");
-		} else {
-			document.write(n +"는 홀수입니다");
+		function sumMulti(a,b){
+			if (a==b) return a*b;
+			else return a+b;
+
 		}
+		document.write(sumMulti(5,10)+"<br>");
+		document.write(sumMulti(10,10));
 	</script>
 </body>
 </html>
