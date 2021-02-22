@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Poor+Story&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width:450px;
+  margin:0 auto;
+  /* background:url(images/heart.png) no-repeat 5px -100px;
+  background-size:500px;   */
+  border:3px solid rgb(231, 180, 180);
+  border-radius:2%;
+  box-shadow:2px 2px 5px rgb(247, 228, 244);
+  font-family: 'Do Hyeon', sans-serif;
+  text-align:center;
+  background-color: rgb(253, 216, 216);
+}
+.day1{
+  padding-top:20px;
+  text-align:center;  
+  font-family: 'Do Hyeon', sans-serif;
+}
+.day1 h3 {
+  font-size:1.2em;
+  color:#cc9595;
+}
+.accent{
+  margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:bold;
+  font-size:3.5em;
+  color:rgb(138, 136, 136);
+}
+.bar {
+	width:100%;
+	margin:60px auto 0 auto;
+	padding-left:15px;
+	height:40px;	
+	background:#e7b7b7;
+	color:rgb(236, 241, 245);
+	font-size:1.2em;
+	line-height:40px;
+}
+.day2 {
+  width:420px;
+  margin:20px auto 20px auto;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.day2 ul {
+  list-style: none;
+  border-bottom:1px dashed #ccc;
+  height:60px;
+}
+.day2 ul:last-child {
+	border-bottom:none;
+}
+.item-title {
+  float:left;
+  width:160px;        
+  font-weight:bold;
+  font-size:1.5em;
+  line-height:60px;
+  color:rgb(88, 86, 86);
+}
+.item-date {
+  float:left;
+  margin-left:60px;
+  font-size:1.2em;
+  color:rgb(88, 86, 86);
+  text-align:right;
+  line-height:60px;
+}
