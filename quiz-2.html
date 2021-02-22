@@ -1,28 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Circle 객체</title>
-	<style>
-		body { text-align: center; font-size:1.2em; line-height: 2em;}
-	</style>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>연습문제 2</title>
 </head>
 <body>
-	<script>
-		var r = prompt("원의 반지름은? (cm)");
-		var cir = new Circle(r);
-		document.write("반지름이 " + r + "cm일 때" + "<br>원의 둘레 : 약 " + cir.circumference() + "cm <br>원의 넓이 : 약 " + cir.area()+"cm<sup>2</sup>");	
-		function Circle(radius) {
-			this.radius = radius;
-			this.circumference = function(){
-				return Math.floor(radius*2*Math.PI);
-			},
-			this.area = function(){
-				return Math.floor(Math.pow(this.radius, 2) * Math.PI);
-			}
-		}
-	
+	<script src = js/quiz-2.js>
+		
 	</script>
 </body>
 </html>
